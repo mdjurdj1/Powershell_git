@@ -1,0 +1,22 @@
+<html>
+    <head> 
+        <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    </head>
+    <body>
+        <h1>HEY THERE WE'RE JUST GETTING BACK INTO THE SWING OF THINGS</h1>
+        <div id="app">
+                {{ message }}
+              </div>
+        
+        <div id="app-2">
+            <span v-bind:title="message">
+                Hover your mouse over me for a few seconds
+                to see my dynamically bound title!
+            </span>
+        </div>      
+
+        <button onclick="doThing()">DO THE THING</button>
+
+        <script src="test.js"></script>
+    </body>
+</html>
